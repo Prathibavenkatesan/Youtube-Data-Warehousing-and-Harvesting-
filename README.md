@@ -25,24 +25,24 @@
 			 `Streamlit is a powerful tool for building data visualization and analysis tools quickly. In this project, users can enter a YouTube channel ID and view relevant details like channel name, subscriber count, total video count, playlist IDs, and video statistics.`
     
 **Connecting to the YouTube API**:
-			 Using the YouTube API, I was able to retrieve detailed data from multiple YouTube channels. The Google API client library for Python was a great choice for making API requests. The users get the relavant information for the channel details by giving the input of channel ID.
+			 `Using the YouTube API, I was able to retrieve detailed data from multiple YouTube channels. The Google API client library for Python was a great choice for making API requests. The users get the relavant information for the channel details by giving the input of channel ID.
 		
 **Storing Data in a MongoDB Data Lake**:
-			After retrieving the data, I stored it in a MongoDB database, which serves as a data lake. MongoDB is excellent for handling unstructured and semi-structured data, making it ideal for storing a wide range of YouTube data.
+			`After retrieving the data, I stored it in a MongoDB database, which serves as a data lake. MongoDB is excellent for handling unstructured and semi-structured data, making it ideal for storing a wide range of YouTube data.
 
 **Migrating Data to a SQL Data Warehouse**:
-			SQL is a relational database that is well-suited for querying and analyzing structured data.After strored into the MongoDB,Create a connection to the MySQL server and access the specified MySQL DataBase by using pymysql library and access tables.
+			``SQL is a relational database that is well-suited for querying and analyzing structured data.After strored into the MongoDB,Create a connection to the MySQL server and access the specified MySQL DataBase by using pymysql library and access tables.
 	
 **Querying the SQL Data Warehouse**:
-			 I created some meaningful insights.
+			 `I created some meaningful insights.
 		
 **Displaying Data in the Streamlit App**:
-			The final step was to display the data in a user-friendly format.The project provides comprehensive data analysis capabilities using Plotly and Streamlit. With the integrated Plotly library, users can create interactive and visually appealing charts and graphs to gain insights from the collected data.
+			`The final step was to display the data in a user-friendly format.The project provides comprehensive data analysis capabilities using Plotly and Streamlit. With the integrated Plotly library, users can create interactive and visually appealing charts and graphs to gain insights from the collected data.
 
 **Conclusion**:
-	 The YouTube Data Harvesting and Warehousing project provides a powerful tool for retrieving, storing, and analyzing YouTube channel and video data.
+	 `The YouTube Data Harvesting and Warehousing project provides a powerful tool for retrieving, storing, and analyzing YouTube channel and video data.
 		
  ***Contributing***:
-	Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request.
+	`Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request.
       
 `
