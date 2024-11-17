@@ -20,8 +20,10 @@
 		5.Streamlit
 
 ## Implementation:
+
 **Setting up the Streamlit app**:
-			 Streamlit is a powerful tool for building data visualization and analysis tools quickly. In this project, users can enter a YouTube channel ID and view relevant details like channel name, subscriber count, total video count, playlist IDs, and video statistics.
+			 `Streamlit is a powerful tool for building data visualization and analysis tools quickly. In this project, users can enter a YouTube channel ID and view relevant details like channel name, subscriber count, total video count, playlist IDs, and video statistics.`
+    
 **Connecting to the YouTube API**:
 			 Using the YouTube API, I was able to retrieve detailed data from multiple YouTube channels. The Google API client library for Python was a great choice for making API requests. The users get the relavant information for the channel details by giving the input of channel ID.
 		
@@ -43,3 +45,4 @@
  ***Contributing***:
 	Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request.
       
+`
