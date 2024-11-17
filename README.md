@@ -7,17 +7,17 @@
       \-> Perform searches and execute queries on the stored data using various SQL search options.
 			
 ## Features:
-			\1.Data Harvesting: Extract channel metadata, video details, and comments using the YouTube Data API.
-			\2.Data Warehousing: Store the extracted data in a SQL database for easy access and analysis.
-			\3.Interactive Analysis: Use Streamlit to execute SQL queries, visualize data, and generate insights.
-			\4.Query Examples: Predefined SQL queries for common analytics tasks such as top videos, channel statistics, and comment analysis.
+			\- Data Harvesting: Extract channel metadata, video details, and comments using the YouTube Data API.
+			\- Data Warehousing: Store the extracted data in a SQL database for easy access and analysis.
+			\- Interactive Analysis: Use Streamlit to execute SQL queries, visualize data, and generate insights.
+			\- Query Examples: Predefined SQL queries for common analytics tasks such as top videos, channel statistics, and comment analysis.
 	 
 ## Technologies:
-		\1.Python
-		\2.Pandas
-		\3.YouTube Data API
-		\4.SQL (MySQL)
-		\5.Streamlit
+		1.Python
+		2.Pandas
+		3.YouTube Data API
+		4.SQL (MySQL)
+		5.Streamlit
 
 ## Implementation:
 ### Setting up the Streamlit app:
